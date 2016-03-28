@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.coordinatorlayoutdemo.ScrollingActivity">
+    <item
+        android:id="@+id/action_tablayout"
+        android:orderInCategory="100"
+        android:title="@string/action_tablayout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cardView"
+        android:orderInCategory="100"
+        android:title="@string/action_cardView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_recyclerView"
+        android:orderInCategory="100"
+        android:title="@string/action_recyclerView"
+        app:showAsAction="never" />
+</menu>
